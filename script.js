@@ -1,6 +1,9 @@
 var button = document.getElementById("Button");
 
-button.addEventListener("click", function() {
-  alert("Congratulations!\nYou got the script running.")
-;
-});
+
+
+function showAlert(){
+    const form = document.getElementById("form");
+    let response = form.getforminput();
+      alert(response)
+}

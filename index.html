@@ -11,7 +11,11 @@
     <ul>
         <li>Connect the JavaScript file - you will see an alert</li>
         <li>Add a button - Make the alert only show up when you press the button</li>
-            <button type="button" id="Button">Button>
+                <label for="form">Whats ur name?</label>
+                <form onsubmit="return false;">
+                    <input type="text" id="form">
+                    <input type="submit" onClick=getFormInput()>
+                </form>
     </ul>
     Extension
     <ul>
