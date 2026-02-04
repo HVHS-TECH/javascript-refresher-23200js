@@ -1,7 +1,6 @@
-alert("Congratulations!\nYou got the script running.")
-const button = document.getElementById("myButton");
-const outputParagraph = document.getElementById("output");
+var button = document.getElementById("Button");
 
 button.addEventListener("click", function() {
-    alert("Hello");
+  alert("Congratulations!\nYou got the script running.")
+;
 });
